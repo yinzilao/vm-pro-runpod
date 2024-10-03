@@ -8,9 +8,9 @@ from torch.nn import functional as F
 import logging
 from termcolor import colored
 
-from virtualmarker.models.layers.HRnet import HRNet
+from vmpro.models.layers.HRnet import HRNet
 
-from virtualmarker.core.config import cfg, update_config
+from vmpro.core.config import cfg, update_config
 
 
 def norm_heatmap(norm_type, heatmap):

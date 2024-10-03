@@ -8,8 +8,8 @@ from torch.nn import functional as F
 import logging
 from termcolor import colored
 
-from virtualmarker.core.config import cfg
-from virtualmarker.models import simple3dpose
+from vmpro.core.config import cfg
+from vmpro.models import simple3dpose
 
 
 class Simple3DMesh(nn.Module):
