@@ -1,6 +1,11 @@
+cmd_*.txt
+/inputs
 /data
 /experiment
 /models
+/To_copy_to_VMPro*
+*.mp4
+pyopengl
 VirtualPose
 /vis*
 *.pyc
